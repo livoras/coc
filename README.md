@@ -1,0 +1,2 @@
+# coc
+Configuration of configurations
