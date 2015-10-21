@@ -1,0 +1,4 @@
+{
+  "verbose": true,
+  "exec": "mocha --compilers js:babel/register ./test/**/*-spec.js"
+}

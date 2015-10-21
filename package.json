@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/livoras/coc/issues"
   },
-  "homepage": "https://github.com/livoras/coc"
+  "homepage": "https://github.com/livoras/coc",
+  "dependencies": {
+    "chai": "^3.4.0"
+  }
 }
