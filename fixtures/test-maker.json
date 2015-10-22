@@ -1,0 +1,72 @@
+[
+  {
+    "name": "首页配置",
+    "key": "home"
+    "type": "Group",
+    "subConfig": [{
+      "name": "标题",
+      "key": "title",
+      "type": "String",
+      "min": 3,
+      "max": 4
+    }, {
+      "name": "封面",
+      "key": "cover",
+      "type": "Resource"
+    }, {
+      "name": "描述",
+      "key": "description",
+      "type": "Text",
+    }, {
+      "name": "性别",
+      "key": "gender",
+      "type": "Single",
+      "options": [{
+        "name": "男",
+        "value": 1
+      }, {
+        "name": "女",
+        "value": 0
+      }]
+    }],
+  },
+
+  {
+    "name": "测试配置页面",
+    "key": "testConfig",
+    "type": "Group",
+    "subConfig": [{
+      "name": "开始按钮",
+      "key": "start-btn",
+      "type": "String",
+      "default": "我也要来！"
+    }]
+  },
+
+  {
+    "name": "测试结果",
+    "key": "results",
+    "type": "Group",
+    "subConfig": [{
+      "name": "",
+      "key": "resultConfig",
+      "type": "Repeat",
+      "subConfig": [{
+        "name": "封面",
+        "key": "cover"
+        "type": "Resource"
+      }, {
+        "name": "结果",
+        "key": "result"
+        "type": "String",
+        "min": 1,
+        "max": 30
+      }, {
+        "name": "此结果插入内容",
+        "key": "insertion",
+        "type": "Text",
+        "default": "<div display='none'>more</div>"
+      }]
+    }]
+  }
+]
